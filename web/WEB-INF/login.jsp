@@ -17,7 +17,7 @@
         <form action="login" method="post">
             <p>
                 <label for="username">Username: </label>
-                <input type="test" name="username" id="username" required>
+                <input type="test" name="username" id="username" value="${username}" required>
             </p>
             
             <p>
@@ -27,5 +27,7 @@
             
             <button type="submit">Submit</button>
         </form>
+        
+        <p>${message}</p>
     </body>
 </html>
